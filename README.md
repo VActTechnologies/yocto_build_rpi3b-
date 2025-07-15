@@ -88,4 +88,7 @@ sudo dd if=core-image-base-raspberrypi3.rootfs-<timestamp>.rootfs.rpi-sdimg of=/
 
 ```
 - use the sync command again for safety 
-- boot the image 
+- boot the image
+# Note : you can also use the shell file to setup and build the yocto image 
+- use setup-environment.sh for setting up the environment
+- use build-image.sh to build the image after manually editing the config files 
